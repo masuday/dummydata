@@ -30,7 +30,7 @@ y = vec([
 n = length(y)
 
 # full model
-Xffll = [X0 X1 X2 X12 X3]
+Xfull = [X0 X1 X2 X12 X3]
 bfull = (Xfull'*Xfull) \ Xfull'*y
 
 # constraints as SAS
